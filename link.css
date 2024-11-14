@@ -1,0 +1,60 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Link list styling */
+.link-list {
+    list-style-type: none;
+}
+
+.link-list li {
+    margin: 10px 0;
+}
+
+/* Link styling */
+.link-list a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s, font-weight 0.3s;
+}
+
+.link-list a:hover {
+    color: #0056b3;
+    font-weight: bold;
+}
